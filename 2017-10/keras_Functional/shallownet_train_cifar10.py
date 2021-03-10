@@ -89,7 +89,7 @@ if not os.path.exists(weights_dir):
     os.mkdir(weights_dir)
 
 # save model
-model.save_weights(os.path.join(weights_dir,'cifar_train_weights.h5'))
+model.save_weights(os.path.join(weights_dir,'cifar_weights.h5'))
 
 import matplotlib.pyplot as plt
 plt.style.use("seaborn-white")
